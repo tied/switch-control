@@ -10,12 +10,12 @@
     <version>1.0.0-SNAPSHOT</version>
 
     <organization>
-        <name>Example Company</name>
-        <url>http://www.example.com/</url>
+        <name>Mesilat Limited</name>
+        <url>http://mesilat.com/FAP/SwitchControl</url>
     </organization>
 
     <name>Switch Control</name>
-    <description>This is the com.mesilat:switch-control plugin for Atlassian Confluence.</description>
+    <description>This is the com.mesilat:switch-control plugin for Atlassian Confluence</description>
     <packaging>atlassian-plugin</packaging>
 
     <dependencies>
