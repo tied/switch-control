@@ -1,0 +1,19 @@
+{namespace Mesilat.Switch.Templates}
+
+/**
+* Switch Template
+* @param label
+* @param macroId
+* @param body
+*/
+{template .control}
+<aui-toggle class="com-mesilat-switch-control" label="{$label}"
+switch-control-plugin-data-macroId="{$macroId}"></aui-toggle>
+<script>
+    define('com.mesilat:switch-control/{$macroId}',['ajs','jquery'], function(AJS,$){lb}
+        return {lb}
+            {$body|noAutoescape}
+        {rb};
+    {rb});
+</script>
+{/template}
